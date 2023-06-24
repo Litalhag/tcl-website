@@ -425,7 +425,8 @@ body {
   /* background: url("./img/model-3-hero-a-desktop.png") no-repeat center/cover; */
   /* background-size: 1200px 700px; */
   background: #fff;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   height: fit-content;
   display: flex;
   /* border: #bb2626 solid 5px; */
@@ -441,7 +442,8 @@ body {
 }
 
 .tcl-img img {
-  /* border: blue 5px solid; */
+  width: 1200px;
+  height: 700px;
 }
 
 .tcl-content {
