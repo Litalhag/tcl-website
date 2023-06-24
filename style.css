@@ -61,10 +61,10 @@ body {
   display: flex;
   justify-content: space-around;
   color: aliceblue;
-  overflow: auto;
-  position: fixed;
+  /* overflow: auto; */
+  /* position: fixed; */
   top: 0;
-  z-index: 999;
+  /* z-index: 999; */
 }
 
 .fill-left {
