@@ -27,7 +27,7 @@ body {
 #header-model {
   background: url("./img/Model-3-Main.png") no-repeat center center/cover;
   height: 100vh;
-  width: 100wh;
+  width: 100%;
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -63,7 +63,7 @@ body {
   color: aliceblue;
   /* overflow: auto; */
   /* position: fixed; */
-  top: 0;
+  /* top: 0; */
   /* z-index: 999; */
 }
 
@@ -149,11 +149,6 @@ body {
   cursor: pointer;
 }
 
-/* h1 {
-  display: flex;
-  align-items: center;
-} */
-
 .left-navbar {
   display: flex;
   justify-content: center;
@@ -162,8 +157,7 @@ body {
   cursor: pointer;
 }
 
-.middle-navbar ul li:hover,
-.left-navbar:hover ul li {
+.middle-navbar ul li:hover {
   background: rgb(240, 248, 255, 0.1);
   /* background: rgba(114, 116, 120, 0.2); */
   border-radius: 3px;
@@ -180,6 +174,11 @@ body {
   margin: 0px 8px;
   font-size: 13px;
   font-weight: 400;
+}
+
+.left-navbar ul li:hover {
+  background: rgb(240, 248, 255, 0.1);
+  border-radius: 3px;
 }
 
 /* First Page */
@@ -388,6 +387,7 @@ body {
 .btn-trans:hover {
   background-color: #fff;
   color: #171717;
+  transition: all 0.3s;
 }
 
 .bottom-content {
