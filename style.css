@@ -6,18 +6,8 @@
   scroll-behavior: smooth;
 }
 
-:root {
-  --white: aliceblue;
-}
-
 html {
   font-family: "Montserrat", sans-serif;
-}
-
-@media only screen and (max-width: 800px) {
-  html {
-    font-size: 50%;
-  }
 }
 
 p {
@@ -27,12 +17,9 @@ p {
   margin-block-end: 0;
 }
 
-html,
+/* html,
 body {
   min-height: 100%;
-}
-/* body {
-  height: 1400px;
 } */
 
 /* Utilities */
@@ -41,19 +28,15 @@ body {
   background: url("./img/Model-3-Main.png") no-repeat center center/cover;
   height: 100vh;
   width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
 }
-
-/* @media (min-height: 500px) {
-  #header-model {
-    min-height: 100vh;
-  }
-} */
 
 /* Showcase */
 .showcase {
   /* background: url("./img/Model-3-Main.png") no-repeat center center/cover;
   height: 100vh; */
-  background: fixed;
+  /* background: fixed; */
 }
 
 .logo {
@@ -246,6 +229,7 @@ body {
   /* border: 5px purple solid; */
   width: 600px;
   height: 200px;
+  padding-top: 100px; /*changed*/
 }
 
 .icons {
