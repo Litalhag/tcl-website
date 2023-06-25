@@ -558,10 +558,12 @@ body {
 .article-flex {
   display: flex;
   /* border: green solid 5px; */
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
-  height: 350px;
+  /* height: 350px; */
+  margin-bottom: 4rem;
+  margin-left: 10rem;
 }
 
 .header-group {
@@ -571,7 +573,7 @@ body {
   width: 800px;
   height: 70px;
   /* margin-top: 25px; */
-  margin-left: -221px;
+  /* margin-left: -221px; */
   /* font-stretch: expanded; */
 }
 
@@ -605,10 +607,10 @@ body {
   font-size: 13px;
   opacity: 0.7;
   width: 500px;
-  margin-left: 180px;
+  /* margin-left: 180px; */
   margin-right: 20px;
   margin-top: 20px;
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .right-class {
